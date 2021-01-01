@@ -31,8 +31,10 @@ public class GirisActivity extends AppCompatActivity {
     public void tanimla(){
         kullaniciAdEditText = (EditText)findViewById(R.id.kullaniciAdEditText);
         kayitOlButton = (Button)findViewById(R.id.kayitOlButton);
-        firebaseDatabase = FirebaseDatabase.getInstance();
+        firebaseDatabase= FirebaseDatabase.getInstance();
         reference = firebaseDatabase.getReference();
+        //firebaseDatabase = FirebaseDatabase.getInstance();
+        //reference = firebaseDatabase.getReference();
 
         kayitOlButton.setOnClickListener(new View.OnClickListener() {
             @Override
