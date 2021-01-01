@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "545601502725",
+    "project_id": "teknotower-ecab4",
+    "storage_bucket": "teknotower-ecab4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545601502725:android:a12060c55c088fb341266c",
+        "android_client_info": {
+          "package_name": "com.rabiayilmaz.teknotower"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545601502725-48f7oe0efmie2q58lemlao16tvevstqu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rabiayilmaz.teknotower",
+            "certificate_hash": "8fd1bf9d88304dc31adf163a37223260cb7b2866"
+          }
+        },
+        {
+          "client_id": "545601502725-k9lu90ed72pmqfivohd2dtk7fpcvgfbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmPoI4pNjIm2iR41oiCiTpL7nrRHgDXDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545601502725-k9lu90ed72pmqfivohd2dtk7fpcvgfbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,16 +3,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:gravity="center"
+    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
     tools:context=".GirisActivity">
 
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:background="@drawable/logo"
-        android:gravity="center"></ImageView>
+        />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı adı giriniz"
+        android:textColorHint="#ecf0f1"
+        android:id="@+id/kullaniciAdEditText"
+        android:layout_margin="15dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:shadowColor="#ffffff"
+        android:id="@+id/kayitOlButton"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Kayıt Ol"
+        android:textStyle="bold"
+        android:textColorHint="#ffffff"
+        />
 
 
 </LinearLayout>
